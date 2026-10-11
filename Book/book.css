@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*
+
+   Book Tutorials 
+   
+   Author: Brie Caporrimo
+   Date:   10/05/26
+   
+   Filename: book.css
+
+*/
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section {
+	display: block;
+}
+
+
+
+/* Body and Header Styles */
+
+html {
+   background-color: rgb(186, 136, 81);
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+
+body {
+	background-color: #FFFFA2;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1460px;
+	min-width: 640px;
+	width: 70%;
+}
+
+body > header > img {
+	display: block;
+	width: 100%;
+}
+
+nav#topLinks a:link, nav#topLinks a:visited {
+	color: white;
+}
+
+nav#topLinks a:hover, nav#topLinks a:active {
+	color: rgb(248, 237, 212);
+}
+
+
+body > header > nav#topLinks {
+	background-color: orange;
+	color: white;
+	line-height: 1.7em;
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+}
+
+/* Navigation */
+nav#tutorials a:link, nav#topLinks a:visited {
+	color: white;
+}
+
+nav#tutorials a:hover, nav#topLinks a:active {
+	color: green;
+}
+article {	
+   clear: both;	
+   padding: 30px 20px 10px 20px;
+}
+article header h1 {
+	color: rgb(189, 64, 15);
+	
+	font-family: Baskerville, "Palatino Linotype", Palatino, 
+	             "Century Schoolbook", "Times New Roman", serif;
+	font-size: 2.5em;
+	padding: 0px 0px 0px 10px;
+}
+
+nav#tutorials ul li {
+	line-height: 1.7em;
+}
+
+
+article::after {
+   clear: both;	
+   content: "";
+   display: table;
+}
