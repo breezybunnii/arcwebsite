@@ -57,10 +57,6 @@ body > header > nav#topLinks {
 }
 
 /* Navigation */
-nav#tutorials a:link, nav#topLinks a:visited {
-	color: white;
-}
-
 nav#tutorials a:hover, nav#topLinks a:active {
 	color: green;
 }
