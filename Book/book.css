@@ -32,6 +32,10 @@ body {
 	max-width: 1460px;
 	min-width: 640px;
 	width: 70%;
+	border: 10px solid darkred;
+	border-style: double;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
 }
 
 body > header > img {
@@ -54,9 +58,12 @@ body > header > nav#topLinks {
 	line-height: 1.7em;
 	text-align: left;
 	padding: 5px 10px 5px 10px;
+	border-top: 2px solid darkred;
+	border-bottom: 2px solid darkred;
 }
 
 /* Navigation */
+
 nav#tutorials a:hover, nav#tutorials a:active {
 	color: green;
 }
